@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <!-- Tiêu đề nhỏ của widget -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="Âm Lượng"
+        android:textColor="#333333"
+        android:textSize="11sp"
+        android:textStyle="bold" />
+
+    <!-- Khu vực chứa 2 nút bấm -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnWidgetDecrease"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="4dp"
+            android:background="@drawable/widget_button_background"
+            android:text="➖ Giảm"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            android:stateListAnimator="@null" />
+
+        <Button
+            android:id="@+id/btnWidgetIncrease"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            android:layout_marginStart="4dp"
+            android:background="@drawable/widget_button_background"
+            android:text="➕ Tăng"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            android:stateListAnimator="@null" />
+    </LinearLayout>
+
+</LinearLayout>

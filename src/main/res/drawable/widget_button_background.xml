@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <!-- Màu xanh hiện đại cho nút (có thể đổi mã HEX màu khác tùy thích) -->
+    <solid android:color="#007AFF" />
+    <!-- Bo tròn các góc nút bấm -->
+    <corners android:radius="8dp" />
+</shape>
